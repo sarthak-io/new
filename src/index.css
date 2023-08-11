@@ -1,13 +1,73 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-inherit: inherit;
+  --font-neuton: Neuton;
+
+  /* font sizes */
+  --font-size-xl: 1.25rem;
+  --font-size-lg: 1.13rem;
+  --font-size-mid: 1.06rem;
+  --font-size-sm: 0.88rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-9xl: 1.75rem;
+  --font-size-2xs: 0.69rem;
+  --font-size-5xs: 0.5rem;
+  --font-size-xs: 0.75rem;
+  --font-size-base: 1rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-mini: 0.94rem;
+  --font-size-11xl: 1.88rem;
+  --font-size-3xl: 1.38rem;
+
+  /* Colors */
+  --color-gray-100: #fffdfd;
+  --color-gray-200: #fcfffc;
+  --color-gray-300: #939096;
+  --color-gray-400: #817c7c;
+  --color-gray-500: #111;
+  --color-gray-600: rgba(255, 255, 255, 0.23);
+  --color-gray-700: rgba(255, 255, 255, 0.1);
+  --color-silver-100: #cababa;
+  --color-firebrick: rgba(208, 36, 17, 0.1);
+  --color-limegreen-100: #4cd93f;
+  --color-limegreen-200: rgba(52, 197, 69, 0.1);
+  --color-darkgray-100: #b4afaf;
+  --color-darkgray-200: #a49c9c;
+  --color-darkgray-300: #a29c9c;
+  --color-darkgray-400: rgba(180, 175, 175, 0.1);
+  --color-aliceblue: #edf3f6;
+  --color-white: #fff;
+  --color-lightgray-100: #d3caca;
+  --color-darkslateblue-100: rgba(74, 68, 162, 0.51);
+  --color-darkslateblue-200: rgba(74, 68, 162, 0.14);
+  --color-snow-100: #fffbfb;
+  --color-snow-200: #fffafa;
+  --color-royalblue: #4c7aef;
+  --color-steelblue: #32638a;
+  --color-crimson: #d72b2b;
+  --color-darkslategray-100: #30384e;
+  --color-darkslategray-200: #353333;
+  --color-mistyrose: #f0dede;
+
+  /* Paddings */
+  --padding-lgi: 1.19rem;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-mini: 15px;
+  --br-xl: 20px;
+  --br-lgi-5: 19.5px;
+  --br-8xs: 5px;
+  --br-xs: 12px;
+  --br-31xl: 50px;
+  --br-11xl: 30px;
+  --br-6xl: 25px;
+  --br-8xl: 27px;
+  --br-5xs: 8px;
 }
